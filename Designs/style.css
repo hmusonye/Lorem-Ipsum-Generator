@@ -1,0 +1,111 @@
+.LOREM-IPSUM-GENERATO {
+  width: 486px;
+  height: 49px;
+  font-family: AvenirNext;
+  font-size: 36px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #6e07c8;
+}
+
+.LOREM-IPSUM-GENERATO .text-style-1 {
+  color: #49c752;
+}
+
+.LOREM-IPSUM-GENERATO .text-style-2 {
+  color: #49be3a;
+}
+
+.Generate-Lorem-Ipsum {
+  width: 364px;
+  height: 25px;
+  font-family: AvenirNext;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #9b9a9c;
+}
+
+.Generate-Lorem-Ipsum .text-style-1 {
+  color: #000000;
+}
+
+.Paragraphs {
+  width: 92px;
+  height: 25px;
+  font-family: AvenirNext;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #9b9a9c;
+}
+
+.Sentences {
+  width: 85px;
+  height: 25px;
+  font-family: AvenirNext;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #9b9a9c;
+}
+
+.Words-Copy {
+  width: 53px;
+  height: 25px;
+  font-family: AvenirNext;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #9b9a9c;
+}
+
+.Button-Background {
+  width: 145px;
+  height: 36px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  border: solid 1px #4a90e2;
+}
+
+.Input-Background-Copy {
+  width: 638px;
+  height: 455px;
+  border-radius: 3px;
+  background-color: #fafafa;
+  box-shadow: 0 0 2px 0 rgba(74, 144, 226, 0.7);
+}
+
+.Generated-Lorem-ipsu {
+  width: 380px;
+  height: 25px;
+  font-family: AvenirNext;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #bebdbf;
+}
