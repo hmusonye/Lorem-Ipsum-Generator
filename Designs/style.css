@@ -1,8 +1,8 @@
-.LOREM-IPSUM-GENERATO {
+.lorem-ipsum-generator {
   width: 486px;
   height: 49px;
-  font-family: AvenirNext;
-  font-size: 36px;
+  font-family: Open Sans;
+  font-size: 30px;
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
@@ -12,18 +12,14 @@
   color: #6e07c8;
 }
 
-.LOREM-IPSUM-GENERATO .text-style-1 {
+.green-accents {
   color: #49c752;
-}
-
-.LOREM-IPSUM-GENERATO .text-style-2 {
-  color: #49be3a;
 }
 
 .Generate-Lorem-Ipsum {
   width: 364px;
   height: 25px;
-  font-family: AvenirNext;
+  font-family: Open Sans;
   font-size: 18px;
   font-weight: normal;
   font-style: italic;
@@ -34,14 +30,8 @@
   color: #9b9a9c;
 }
 
-.Generate-Lorem-Ipsum .text-style-1 {
-  color: #000000;
-}
-
-.Paragraphs {
-  width: 92px;
-  height: 25px;
-  font-family: AvenirNext;
+.paragraph {
+  font-family: Open Sans;
   font-size: 18px;
   font-weight: normal;
   font-style: italic;
@@ -52,10 +42,10 @@
   color: #9b9a9c;
 }
 
-.Sentences {
+.sentences {
   width: 85px;
   height: 25px;
-  font-family: AvenirNext;
+  font-family: Open Sans;
   font-size: 18px;
   font-weight: normal;
   font-style: italic;
@@ -66,21 +56,7 @@
   color: #9b9a9c;
 }
 
-.Words-Copy {
-  width: 53px;
-  height: 25px;
-  font-family: AvenirNext;
-  font-size: 18px;
-  font-weight: normal;
-  font-style: italic;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: center;
-  color: #9b9a9c;
-}
-
-.Button-Background {
+.button {
   width: 145px;
   height: 36px;
   border-radius: 6px;
@@ -88,24 +64,115 @@
   border: solid 1px #4a90e2;
 }
 
-.Input-Background-Copy {
+.button:hover {
+  background-color: #6e07c8; /* purple */
+  color: white;
+}
+
+#results-area {
   width: 638px;
   height: 455px;
   border-radius: 3px;
   background-color: #fafafa;
   box-shadow: 0 0 2px 0 rgba(74, 144, 226, 0.7);
+  overflow: scroll;
+  padding: 25px 25px;
 }
 
-.Generated-Lorem-ipsu {
-  width: 380px;
-  height: 25px;
-  font-family: AvenirNext;
+.generated-lorem-ipsum {
+  font-family: Open Sans;
   font-size: 18px;
   font-weight: normal;
   font-style: italic;
   font-stretch: normal;
   line-height: normal;
   letter-spacing: normal;
-  text-align: right;
   color: #bebdbf;
+}
+
+#container {
+  display: flex;
+}
+
+#left{
+  display: flex;
+  width: 25%;
+  margin-left: 35px;
+  flex-direction: column;
+}
+
+#right {
+  display: flex;
+  width: 75%;
+  margin-left: 35px;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+form label {
+  padding: 10px 0;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #9b9a9c;
+}
+
+.results-copy {
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+
+    visibility: hidden;
+    width: 140px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -75px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
 }
